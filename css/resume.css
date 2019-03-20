@@ -183,3 +183,21 @@ li{
   text-decoration: inherit;
   content: "\f3c5";
 }
+
+/***** Button *****/
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 270px;
+  margin-top: 5px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
